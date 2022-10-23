@@ -159,6 +159,7 @@ body{
 }
 #yazi-is{
     display: inline-block;
+    padding-left: 3%;
     left: 1%;
     color: black;
     font-size: 24px;}
@@ -223,23 +224,22 @@ body{
 .footer{
     background-color: #aca8a8;
     display: flex;
+    align-content: flex-start;
     width: 100%;
     height: auto;
     justify-content:space-around;
-    margin: 1%;
+    margin-bottom:auto;
+    padding-bottom: auto;
 }
 .footer-div{
     display: inline-block;
     padding: 2px;
     text-decoration: none;
     color: rgb(23, 23, 23);
-    list-style: none;
-    margin-top: 0%;
-    justify-items:normal;
+    justify-items:start;
     text-align: start;
-    align-items:flex-start;
-    flex-direction: column;
-}
+    align-items:start;
+    }
 .footer-div ul>li {
     list-style: none; 
     text-decoration: solid;
@@ -253,9 +253,9 @@ body{
     color:#5b5b5b;
 }
 .footer-div ul{
-    align-items: send;
+    align-items:center;
 }
-#language{
+.language{
     color:#5b5b5b;
     position:static;
     margin-top: 100%;
@@ -264,7 +264,7 @@ body{
     flex-direction: row;
     justify-content: start;
 }
-#language a{
+.language a{
     text-decoration: none;
 }
 .last-menu{
